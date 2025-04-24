@@ -1,0 +1,43 @@
+:root {
+    --bg-proyectos: #fff3e0;
+    --text-proyectos: #3e2723;
+    --nav-proyectos: #ff6f00;
+    --footer-proyectos: #e65100;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--bg-proyectos);
+    color: var(--text-proyectos);
+  }
+  
+  nav {
+    background-color: var(--nav-proyectos);
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  footer {
+    background-color: var(--footer-proyectos);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  

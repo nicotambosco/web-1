@@ -1,0 +1,43 @@
+:root {
+    --bg-contacto: #f1f8e9;
+    --text-contacto: #33691e;
+    --nav-contacto: #689f38;
+    --footer-contacto: #558b2f;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    background-color: var(--bg-contacto);
+    color: var(--text-contacto);
+  }
+  
+  nav {
+    background-color: var(--nav-contacto);
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  footer {
+    background-color: var(--footer-contacto);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  

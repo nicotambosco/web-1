@@ -1,0 +1,44 @@
+:root {
+    --color-fondo-index: #f4f4f4;
+    --color-texto-index: #222;
+    --color-nav-index: #005f73;
+    --color-footer-index: #0a9396;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo-index);
+    color: var(--color-texto-index);
+  }
+  
+  nav {
+    background-color: var(--color-nav-index);
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  footer {
+    background-color: var(--color-footer-index);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
